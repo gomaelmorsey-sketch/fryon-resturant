@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fryon</title>
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+<style>
+
+.col-md-4{
+transition: all ease 1s;
+}
+.col-md-4:hover{
+    scale: 1.1;
+}
+
+        @media(max-width : 768px){
+
+    .col-md-4:hover{
+    scale: none;
+}
+
+.div-about-body{
+    margin-bottom: -2rem;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+    
+<!-- NavBar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="padding: 10px 0;">
+
+<div class="container">
+
+<a class="navbar-brand fw-bold" style="font-size: 25px;" href="#">Fryon</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+<div id="mainNav" class="collapse navbar-collapse">
+    <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a href="#home" class="nav-link active" style="font-size: 16px;">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link" style="font-size: 16px;">About</a></li>
+        <li class="nav-item"><a href="#menu" class="nav-link" style="font-size: 16px;">Menu</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link" style="font-size: 16px;">Contact</a></li>
+    </ul>
+</div>
+
+</div>
+
+</nav>
+
+
+
+<!-- Hero Section -->
+<section id="home" style="background: url('./asstes/bacground1.jpg') no-repeat center center/cover; height: 90vh; color: #fff; display: flex; align-items: center; justify-content: center; text-align: center;">
+
+<div>
+
+<h1 style="font-size: 3.5rem; font-weight: bold;">Welcome to Fryon</h1>
+
+<p style="font-size: 1.5rem;">Welcome to our Resturant.</p>
+
+<a href="#menu" class="btn btn-warning btn-lg mt-3">Explore Menu</a>
+
+</div>
+
+</section>
+
+
+<!-- About Section -->
+<section id="about" style="padding: 4.2rem 0;">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-md-6">
+
+<img src="asstes/img2.jpg" alt="This is a image for Resturant" class="img-fluid rounded shadow" style="border-radius: 1.5rem;">
+
+</div>
+
+<div class="col-md-6 div-about-body">
+
+<h2>About Us</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloremque non, ad quibusdam adipisci delectus nesciunt. Quam labore recusandae, suscipit alias, omnis optio odit non nulla sequi neque ex perferendis.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- Menu Section -->
+<section id="menu" style="padding: 4.2rem 0;" class="bg-light">
+
+<div class="container text-center">
+
+<h2 style="margin-bottom: 2.4rem;">Our Menu</h2>
+
+<!-- First Row -->
+<div class="row g-4 mb-4">
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="asstes/menu1.jpg" alt="This is image for humburger" class="card-img-top" style="height: 13.7rem; object-fit: cover;">
+
+<div class="card-body">
+
+<h5>Burger</h5>
+<p>We make a perfect Burger classic.</p>
+<p class="text-warning">$100</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+<div class="card">
+
+<img src="asstes/menu2.jpg" alt="This is image for Pizza" class="card-img-top" style="height:13.7rem ; object-fit: cover;">
+
+<div class="card-body">
+
+<h5>Pizza</h5>
+<p>This is a amazing large margereta pizza.</p>
+<p class="text-warning">$150</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="asstes/menu3.jpg" alt="This is image for sandwish" class="card-img-top" style="height: 13.7rem; object-fit: cover;">
+
+<div class="card-body">
+
+<h5>Sandwish</h5>
+<p>We have a amazing chaken sandwish.</p>
+<p class="text-warning">$80</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- Secand Row -->
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="asstes/menu4.jpg" alt="This is image for bbq" class="card-img-top" style="height: 13.7rem; object-fit: cover;">
+
+<div class="card-body">
+
+<h5>BBQ</h5>
+<p>We make a delicious BBQ with bread.</p>
+<p class="text-warning">$250</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="asstes/menu5.jpg" alt="This is a image for fried chaken" class="card-img-top" style="height: 13.7rem; object-fit: cover;">
+
+<div class="card-body">
+
+<h5>Fried Chaken</h5>
+<p>This is a delicious and amazing fried chaken.</p>
+<p class="text-warning">$200</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="asstes/menu6.jpg" alt="This is a image for apple pie" class="card-img-top" style="height: 13.7rem; object-fit: cover;">
+
+<div class="card-body">
+
+<h5>Apple Pie</h5>
+<p>Tihs is a amazing and delicious apple pie.</p>
+<p class="text-warning">$60</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- Contact Section -->
+ <section id="contact" style="background: #222; color: #fff; padding: 4.2rem 0;">
+
+<div class="container text-center">
+
+<h2>Contact Us</h2>
+
+<p style="margin-bottom: 1rem;">115 Mansoura | +01553231054</p>
+
+<form style="max-width: 500px; margin: auto;">
+
+<input type="text" class="form-control mb-3" placeholder="Enter your name" required>
+<input type="email" class="form-control mb-3" placeholder="Enter your email" required>
+<textarea class="form-control mb-3" rows="4" placeholder="Enter your message" required></textarea>
+<button class="btn btn-warning w-100 mb-3" type="submit">Sent Message</button>
+<button class="btn btn-danger w-100" type="reset">Reset</button>
+
+</form>
+
+</div>
+
+ </section>
+
+
+ <!-- Footer Section -->
+  <footer style="padding: 1rem 0; color: #fff; text-align: center;" class="bg-dark">
+    <p style="margin: 0;">&copy; 2025 Fryon | ALL Rigts Resrved</p>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
